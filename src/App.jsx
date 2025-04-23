@@ -1,14 +1,16 @@
+import { BrowserRouter } from 'react-router-dom';
 import { useState } from 'react'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <div>
-        <h1>Vehicle Booking system</h1>
-      </div>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <main>
+        <AppRoutes />
+      </main>
+    </BrowserRouter>
   )
 }
 

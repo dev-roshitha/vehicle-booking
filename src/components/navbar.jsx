@@ -1,16 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
-//import Home from '../pages/Home';
-//import About from '../pages/About';
-//import NotFound from '../pages/NotFound';
+import { NavLink } from 'react-router-dom';
 
-const AppRoutes = () => {
+const NavBar = () => {
   return (
-    <Routes>
-      {/* <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="*" element={<NotFound />} /> */}
-    </Routes>
+  <nav>
+      <NavLink to="/dashboard" end>Dashboard</NavLink>
+      <NavLink to="/admin-login">Admin</NavLink>
+      <NavLink to="/booking">Book A Vehicle</NavLink>
+      <NavLink to="/booking/avalability">Availability</NavLink>
+  </nav>
   );
 };
 
-export default AppRoutes;
+export default NavBar;

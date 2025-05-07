@@ -1,13 +1,15 @@
 import { BrowserRouter } from 'react-router-dom';
-import { useState } from 'react'
+import AppRoutes from './pages/appRoutes'
+import NavBar from './components/navbar'
 import './App.css'
+import './styles/main.scss'
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
       <main>
+        <NavBar />  
         <AppRoutes />
       </main>
     </BrowserRouter>

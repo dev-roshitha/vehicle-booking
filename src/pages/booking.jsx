@@ -77,7 +77,7 @@ function Booking() {
 
           </div>
 
-          <button type="submit" className="btn submit-btn"> Book Now </button>
+          <button type="submit" className="btn submit-btn --draw-border">book now</button>
         </form>
       </div>
   </section>

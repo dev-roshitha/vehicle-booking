@@ -21,6 +21,18 @@
   .input-wrapper{
     display: flex;
     padding: 20px 0;
+    flex-direction: column;
+    @include tablet-landscape{
+      flex-direction: row;
+    }
+    .field-wrp{
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      @include tablet-landscape{
+        flex-direction: row;
+      }
+    }
   }
   .booking-form{
     padding: 40px;

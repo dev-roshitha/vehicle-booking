@@ -48,7 +48,7 @@ function Booking() {
             </div>
 
             {/* Check-out */}
-            <div className="mb-4 field-wrp">
+            <div className="field-wrp">
               <label className="checkout-label input-label">Check-out Date</label>
               <DatePicker
                 selected={checkOutDate}
@@ -63,7 +63,7 @@ function Booking() {
             </div>
 
             {/* Vehicle Type */}
-            <div className="mb-6 field-wrp">
+            <div className="field-wrp">
               <label className="vehicle-type input-label">Vehicle Type</label>
 
               <Select

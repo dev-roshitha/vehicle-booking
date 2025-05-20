@@ -175,6 +175,7 @@ input{
   border-bottom: 1px solid #fff;
   color: #d2d2d2;
   font-family: "Montserrat", sans-serif;
+  width: 100%;
 }
 
 .submit-btn{
@@ -262,5 +263,15 @@ input{
   }
   .react-datepicker-popper{
     z-index: 3;
+  }
+
+  .css-13cymwt-control{
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+  }
+  .css-1u9des2-indicatorSeparator{
+    display: none;
   }
 }

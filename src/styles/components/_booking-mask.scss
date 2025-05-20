@@ -22,15 +22,19 @@
     display: flex;
     padding: 20px 0;
     flex-direction: column;
+    gap: 20px;
     @include tablet-landscape{
       flex-direction: row;
     }
     .field-wrp{
       display: flex;
-      gap: 10px;
+      //gap: 4px;
       flex-direction: column;
       @include tablet-landscape{
-        flex-direction: row;
+        //flex-direction: row;
+      }
+      .input-label{
+        text-align: left;
       }
     }
   }
